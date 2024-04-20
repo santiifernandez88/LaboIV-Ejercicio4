@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .abc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw; /* Ancho completo de la ventana */
+    height: 100vh; /* Altura completa de la ventana */
+    --color: rgba(114, 114, 114, 0.3);
+    background-color: #191a1a;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+    padding: 20px; /* Reducido para que no ocupe tanto espacio */
+  }
+  
+  h1 {
+    color: white;
+    margin-bottom: 20px; /* Ajusta este valor según tu preferencia */
+  }
+  
+  .input {
+    
+    margin: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(175, 175, 175);
+    color: #fff;
+  }
+  
+  label {
+    color: white; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 10px; /* Espacio entre los grupos de input */
+  }
+
+  button {
+    margin: 50px;
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  }
+  
+  button span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  button span:not(hover) {
+    transition: all 1s;
+  }
+  
+  p{
+    color: white;
+  }

@@ -1,0 +1,18 @@
+<div class="abc">
+    <h1>Bienvenido!</h1>
+    <p>Sigue los pasos para iniciar sesion</p>
+    <div class="form-group">
+      <label for="username">Nombre de usuario:</label>
+      <input placeholder="" class="input" name="text" type="text" [(ngModel)]="username">
+    </div>
+    <div class="form-group">
+      <label for="password">Contraseña:</label>
+      <input placeholder="" class="input" name="text" type="password" [(ngModel)]="password">
+    </div>
+    <button (click)="Login()">
+        <span> Ingresar </span>
+      </button>
+      <a href="registro">No tienes una cuenta?</a>
+  </div>
+  
+  <router-outlet />

@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.abc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    --color: #E1E1E1;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+  }
+
+
+  h1 {
+    color: black;
+    margin-bottom: 20px; /* Ajusta este valor según tu preferencia */
+  }
+  
+  .input {
+    
+    margin: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(16, 16, 16);
+    color: black;
+  }
+  
+  label {
+    color: black; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 10px; /* Espacio entre los grupos de input */
+  }
+
+  button {
+    margin: 50px;
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color: #f3f0f0;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #212121;
+    border: 0.08em solid #212121;
+    box-shadow: 0 0.4em 0.1em 0.019em #212121;
+  }
+  
+  button span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  button span:not(hover) {
+    transition: all 1s;
+  }
+  
+  p{
+    color: black;
+  }
+
+  a{
+    color: rgb(43, 42, 42);
+  }
